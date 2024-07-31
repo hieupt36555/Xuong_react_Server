@@ -1,7 +1,7 @@
 import { StatusCodes } from "http-status-codes";
-import Cart from "../models/CartModel";
-import ApiError from "../utils/ApiError";
-import Product from "../models/ProductModel";
+import Cart from "../models/CartModel.js";
+import ApiError from "../utils/ApiError.js";
+import Product from "../models/ProductModel.js";
 
 class CartsController {
   // GET /carts

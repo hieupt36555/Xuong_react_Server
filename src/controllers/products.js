@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
-import Product from "../models/ProductModel";
-import ApiError from "../utils/ApiError";
+import Product from "../models/ProductModel.js";
+import ApiError from "../utils/ApiError.js";
 
 class ProductsController {
   // GET /products
